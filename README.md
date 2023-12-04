@@ -7,24 +7,32 @@
 # Running Assemble code (Way 1)
 - Go to AssmSoft folder make .asm file
 
-![](001.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/001.png)
 
 - Open DOSBOX
 - Run Following command
 
-``` mount c c:/assmsoft ```
+``` 
+mount c c:/assmsoft 
+```
 
 In place of first “c” you can give any name, to access it latter on
 
-``` c: ```
+``` 
+c: 
+```
 
-``` nasm hello.asm -o hello.com -l hello.lst ```
+``` 
+nasm hello.asm -o hello.com -l hello.lst 
+```
 
-``` afd hello.com ```
+``` 
+afd hello.com 
+```
 
 hello is my file name.
 
-![](002.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/002.png)
 
 To execute your code one by one use “f1” key
 
@@ -287,7 +295,7 @@ end main
 - **add al, 32:** This instruction adds 32 to the value in the al register. In **ASCII, the difference between uppercase and lowercase letters is 32**. So, adding 32 effectively converts an uppercase character to its lowercase counterpart. For example, 'A' (65 in ASCII) becomes 'a' (97 in ASCII).
 
 # Variable, Data type, Offset and LEA
-![](004.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/004.png)
 
 # Two String on Two different line
 ```
@@ -338,11 +346,11 @@ end main
 End Main
 ```
 
-![](005.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/005.png)
 
 
 # Loop, Label, Counter Register, Inc and Program to print 0 to 9
-![](006.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/006.png)
 
 ```
 .model small
@@ -415,12 +423,12 @@ end main
 end main
 ```
 # Flag Register
-![](007.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/007.png)
 
 
 
 # Jump, unconditional jump, conditional jump and Compare
-![](008.png)
+![](https://github.com/muhammadnaqeeb/Microprocessor-and-Assembly-Language/blob/main/images/008.png)
 
 # Check if input number is equal to given number
 ```
